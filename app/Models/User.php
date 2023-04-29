@@ -11,7 +11,7 @@ class User extends Model {
 
     public $timestamps = false;
 
-    protected $table = 'tblteacher';
+    protected $table = 'teachertbl';
 
     protected $fillable = [
         'teacherid', 'lastname', 'firstname', 'middlename', 'bday', 'age'
